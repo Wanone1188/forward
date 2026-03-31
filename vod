@@ -1,0 +1,15 @@
+{
+  "id": "xiaen_vod",
+  "name": "夏恩云解析",
+  "version": "1.0.0",
+  "author": "Wanone1188",
+  "description": "基于 GitHub 脚本的视频转发模块",
+  "icon": "https://fastly.jsdelivr.net/gh/Wanone1188/xiaen@main/icon.png",
+  "main": "https://fastly.jsdelivr.net/gh/Wanone1188/xiaen@main/index.js",
+  "type": "vod",
+  "handler": {
+    "url_match": ".*", 
+    "action": "forward",
+    "script": "https://fastly.jsdelivr.net/gh/Wanone1188/xiaen@main/index.js"
+  }
+}
